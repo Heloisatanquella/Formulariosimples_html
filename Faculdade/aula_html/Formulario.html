@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1> Formulário de Contato </h1>
+    <form> 
+        <label form="nome"> <b> Nome Completo: </b></label>
+        <input type="text" id="nome completo" name="nome completo" placeholder="Digite seu nome completo aqui" size="70">
+
+        <label form="data_nasc"> <b> Data de Nascimento: </b></label>
+        <input type="date" id="data_nasc" name="data_nasc">
+
+        <label form="dependentes"> <b> Dependentes: </b></label>
+        <input type="number" id="Dependentes" name="dependentes" size="10" min="0" max="6"><br><br>
+
+        <label form="email"> <b> E-mail: </b></label>
+        <input type="email" id="email" name="email" placeholder="@mail.com" size="75">
+
+        <label form="tel"> <b> Telefone: </b></label>
+        <input type="text" id="telefone" name="telefone" placeholder="(xx) 9 xxxx-xxxx" size="20"><br><br>
+
+        <label form="endereco"> <b> Endereço: </b></label>
+        <input type="text" id="endereco" name="endereco" placeholder="input seu endereço aqui" size="75">
+
+        <label for="estado"><b> Estado </b></label>
+        <select name="estado">
+            <option selected="" value=""> Selecione o Estado (UF)</option>
+            <option value="Acre">Acre</option>
+            <option value="Alagoas">Alagoas</option>
+            <option value="Amapá">Amapá</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Distrito Federal">Distrito Federal</option>
+            <option value="Espírito Santo">Espírito Santo</option>
+            <option value="Goiás">Goiás</option>
+            <option value="Maranhão">Maranhão</option>
+            <option value="Mato Grosso">Mato Grosso</option>
+            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Pará">Pará</option>
+            <option value="Paraíba">Paraíba</option>
+            <option value="Paraná">Paraná</option>
+            <option value="Pernambuco">Pernambuco</option>
+            <option value="Piauí">Piauí</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+            <option value="Rondônia">Rondônia</option>
+            <option value="Roraima">Roraima</option>
+            <option value="Santa Catarina">Santa Catarina</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Sergipe">Sergipe</option>
+            <option value="Tocantins">Tocantins</option>
+    
+        </select> <br><br>
+
+        <label form="genero"> <b> Sexo: </b></label>
+        <input type="radio" id="feminino" name="genero" value="feminino"> Feminino
+        <input type="radio" id="masculino" name="genero" value="masculino"> Masculino <br><br>
+
+        <label for="foto"> <b> Envie sua foto: </b></label>
+        <input type="file" name="foto"><br><br>
+
+        <!-- <input type="search" name="busca" placeholder="pesquisar...">
+        <input type="button" name="pesquisar" value="pesquisar"><br><br> -->
+
+        <label form="avaliacao"> Avalie nosso site: </label>
+        <input type="range" name="value" min="0" max="10"><br>
+        <small>(Arraste o controle para selecionar uma nota entre 0 e 10.)</small><br><br>
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+
+
+
+        <!-- <input type="checkbox" name="termo_aceite"> Aceito os termos de compromisso -->
+
+
+
+
+
+    </form>
+</body>
+</html>
